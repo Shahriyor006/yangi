@@ -1,0 +1,110 @@
+@media screen and (max-width: 1180px) {
+    .top__left,
+    .top__right{
+        gap: 30px;
+        font-size: 12px;
+    }
+    .top__right li:first-child p{
+        display: none;
+    }
+    .top__right li:first-child i:first-child{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .top__right li:first-child i:first-child b{
+        font-size: 14px;
+    }
+    .first__stage sub{
+        display: none;
+    }
+    .top{
+        padding: 0 20px;
+    }
+    .first__stage{
+        padding: 0 10px;
+        text-align: center;
+        align-items: center;
+    }
+    .second__stage ol li{
+        font-size: 12px;
+    }
+    .navbar{
+        height: auto;
+        padding: 10px 0;
+    }
+    .fa-list{
+        font-size: 14px;
+    }
+    .second__stage li:first-child{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 0 3px;
+    }
+    .second__stage ol li:nth-child(3){
+        display: flex;
+        align-items: center;
+        padding: 0 3px;
+    }
+    .second__stage{
+        max-width: 100%;
+    }   
+}
+
+@media screen and (max-width: 990px){
+    .top{
+        display: none;
+    }
+    .second__top{
+        display: inline-block;
+    }
+    .navbar{
+        display: none;
+    }
+    .second__navbar{
+        display: inline-block;
+        display: flex;
+    }
+}
+@media screen and (max-width: 660px){
+    .second__top{
+        font-size: 14px;        
+        align-items: center;
+        padding-top: 10px;
+    }
+    .second__top img{
+        max-width: 300px;
+        height: 20px;
+    }
+    .second__navbar{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 400px){
+    .second__top{
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .fa-list{
+        font-size: 12px;
+    }
+    .second__navbar input{
+        width: 100%;
+    }
+    .second__top{
+        height: 25px;
+    }
+
+    .second__top img{
+        max-width: 150px;
+    }
+    .second__navbar{
+        grid-gap: 5px;
+        padding: 0 10px;
+    }
+    .second__navbar{
+        padding: 0 10px;
+    }
+}
+
+
