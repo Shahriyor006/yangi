@@ -65,6 +65,10 @@
         display: inline-block;
         display: flex;
     }
+    .main__body img{
+        width: 100%;
+        height: 100%;
+    }
 }
 @media screen and (max-width: 660px){
     .second__top{
